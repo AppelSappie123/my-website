@@ -1,0 +1,11 @@
+{
+  "require": {
+    "ua-parser/uap-php": "^3.9",
+    "team-reflex/discord-php": "^3.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true
+    }
+  }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="loading">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">    
+  <title>@Lives_creditcard</title>
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="theme-assets/css/vendors.css">
+  <link rel="stylesheet" type="text/css" href="theme-assets/css/app-lite.css">
+  <link rel="stylesheet" type="text/css" href="theme-assets/css/core/menu/menu-types/vertical-menu.css">
+  <link rel="stylesheet" type="text/css" href="theme-assets/css/core/colors/palette-gradient.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <style>
+    body {
+      background-image: url("https://images.unsplash.com/photo-1577908884587-a89c28d6c1af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Ymx1ZSUyMGNpdHl8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      overflow-y: scroll;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      min-height: 100vh;
+    }
+
+    h5, h4 {
+      color: white;
+      font-weight: bold;
+    }
+
+    .text-center {
+      background-color: #0e1d2c;
+      border: 1px solid #525252;
+      border-radius: 5px;
+    }
+
+    textarea {
+      color: white;
+      resize: none;
+    }
+
+    .text-center::placeholder {
+      color: grey;
+    }
+
+    .text-center:focus {
+      background-color: #0e1d2c;
+    }
+
+    textarea::-webkit-scrollbar {
+      width: 5px;
+      background-color: #112132;
+    }
+
+    textarea::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #2e4964;
+    }
+
+    .lista_reprovadass {
+      color: #747474;
+    }
+
+    .card-body {
+      background-color: #1c3044;
+      border-radius: 5px;
+    }
+
+    .text-center {
+      border: none;
+    }
+
+    .badge-success, .btn-success {
+      background-color: #ffe74c;
+      color: black;
+      border: none;
+    }
+
+    .btn-success:hover {
+      background-color: #c9b63c;
+      border: none;
+      color: black;
+      shadow: hidden;
+    }
+
+    .aprovadas {
+      background-color: #35a7ff;
+      color: black;
+    }
+
+    .badge-danger {
+      background-color: #ff5964;
+      color: black;
+    }
+
+    .html body .content .content-wrapper {
+      background-color: #112132;
+    }
+
+    .btn-bg-gradient {
+      background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+      margin: 5px;
+      width: 49%;
+      padding: 12px 40px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      box-shadow: 0 0 20px #eee;
+    }
+
+    /* Voeg hier eventuele andere aangepaste CSS-regels toe */
+
+  </style>
+</head>
+<body class="vertical-layout" style="background-color:#112132;" data-color="bg-gradient-x-purple-blue">
+  <!-- De rest van je HTML-code -->
+</body>
+</html>
